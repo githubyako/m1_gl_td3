@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/etudiant/projects/td3/main.cpp
+person.hpp
+/home/etudiant/projects/td3/person.hpp
+
+/home/etudiant/projects/td3/person.cpp
+person.hpp
+/home/etudiant/projects/td3/person.hpp
+
+/home/etudiant/projects/td3/person.hpp
+string
+-
+iostream
+-
+sstream
+-
+fstream
+-
+vector
+-
+algorithm
+-
+
